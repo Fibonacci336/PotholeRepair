@@ -1,1 +1,19 @@
 # PotholeRepair
+
+## Setup
+### Install OpenCV for Raspberry Pi
+Follow the the instructions at this [link](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/)
+
+### Setup I2C for IR Temperature Sensor
+* Enable I2C for Raspberry Pi
+  * Run ```sudo raspi-config```
+  * Under Advanced settings, select enable I2C and reboot
+* Installing the bcm2835 module
+  * Untar the given bcm2835 tarball
+  * Enter the unpacked directory
+  * Run ```./configure && make && sudo make install```
+  * Run ```sudo modprobe bcm2835```
+* Test installation
+  * Enter the tempProgram directory and run ```./runTemp```
+  * If this program returns any values, I2C is successfully setup
+  
