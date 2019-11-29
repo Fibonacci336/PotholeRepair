@@ -17,3 +17,12 @@ Follow the the instructions at this [link](https://www.pyimagesearch.com/2017/09
   * Enter the tempProgram directory and run ```./runTemp```
   * If this program returns any values, I2C is successfully setup
   
+### Source Dependencies
+**Should be in the virtual enviornment when installing these**
+* ```pip3 install adafruit-circuitpython-motorkit```
+* ```pip3 install flask```
+* ```pip install "picamera[array]"```
+* ```pip install opencv-contrib-python```
+* ```pip install imutils```
+* ```sudo apt-get install rpi.gpio```
+  
