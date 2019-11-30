@@ -25,4 +25,8 @@ Follow the the instructions at this [link](https://www.pyimagesearch.com/2017/09
 * ```pip install opencv-contrib-python```
 * ```pip install imutils```
 * ```sudo apt-get install rpi.gpio```
+
+### Create Wireless AP
+* Use the following [link](https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md)
+* **SSID must be "Repairinator" in order to work with iOS app**
   
